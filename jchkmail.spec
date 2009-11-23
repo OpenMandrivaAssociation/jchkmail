@@ -15,6 +15,7 @@ Url: http://www.j-chkmail.org/
 BuildRoot: %{_tmppath}/%{name}-buildroot
 BuildRequires: libxml2-devel
 BuildRequires: libmilter-devel 
+BuildRequires: sendmail
 
 %description
 j-chkmail is a mail filtering software using sendmail milter API. j-chkmail is
