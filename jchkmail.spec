@@ -1,5 +1,5 @@
 %define name jchkmail
-%define version 2.1.1
+%define version 2.2.1
 %define release %mkrel 1
 
 %define Werror_cflags %nil
