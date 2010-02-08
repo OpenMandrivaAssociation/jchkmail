@@ -1,6 +1,6 @@
 %define name jchkmail
 %define version 2.2.1
-%define release %mkrel 1
+%define release %mkrel 2
 
 %define Werror_cflags %nil
 
@@ -65,3 +65,4 @@ mkdir -p %buildroot%_sysconfdir/init.d
 %_sysconfdir/init.d/*
 %attr(-,jchkmail,jchkmail) %config(noreplace) %_var/lib/%name
 %_mandir/*/*
+%doc README*
