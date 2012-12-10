@@ -66,3 +66,20 @@ mkdir -p %buildroot%_sysconfdir/init.d
 %attr(-,jchkmail,jchkmail) %config(noreplace) %_var/lib/%name
 %_mandir/*/*
 %doc README*
+
+
+%changelog
+* Mon Dec 06 2010 Oden Eriksson <oeriksson@mandriva.com> 2.2.1-3mdv2011.0
++ Revision: 612440
+- the mass rebuild of 2010.1 packages
+
+* Mon Feb 08 2010 Olivier Thauvin <nanardon@mandriva.org> 2.2.1-2mdv2010.1
++ Revision: 502501
+- add docs files
+- 2.2.1
+
+* Mon Nov 23 2009 Olivier Thauvin <nanardon@mandriva.org> 2.1.1-1mdv2010.1
++ Revision: 469198
+- import jchkmail
+
+
