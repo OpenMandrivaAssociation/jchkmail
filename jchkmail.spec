@@ -18,7 +18,8 @@ compatible with UNIX based mailservers running sendmail or postfix.
 
 The goal of j-chkmail is to be able to filter as much messages as possible, as
 fast as possible and as well as possible. Originally, it's intended to be use
-in large and heterogeneous communities such as university campus, but not only. 
+in large and heterogeneous communities such as university campus,
+but not only. 
 
 %prep
 %setup -q
