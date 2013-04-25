@@ -1,18 +1,13 @@
-%define name jchkmail
-%define version 2.2.1
-%define release %mkrel 3
-
 %define Werror_cflags %nil
 
 Summary: A mail filtering software
-Name: %{name}
-Version: %{version}
-Release: %{release}
+Name:    jchkmail
+Version: 2.2.1
+Release: 4
 Source0: %{name}-%{version}.tgz
 License: GPL
 Group: System/Servers
 Url: http://www.j-chkmail.org/
-BuildRoot: %{_tmppath}/%{name}-buildroot
 BuildRequires: libxml2-devel
 BuildRequires: libmilter-devel 
 BuildRequires: sendmail
@@ -45,20 +40,11 @@ autoreconf
 %make
 
 %install
-rm -rf $RPM_BUILD_ROOT
-
 mkdir -p %buildroot%_sysconfdir/init.d
 
 %makeinstall_std
 
-%pre
-%_pre_user_add %name %_var/lib/%name /bin/false
-
-%postun
-%_postun_user_del %name
-
 %files
-%defattr(-,root,root)
 %config(noreplace) %_sysconfdir/mail/%name
 %_bindir/*
 %_sbindir/*
