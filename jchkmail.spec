@@ -3,7 +3,7 @@
 Summary: A mail filtering software
 Name:    jchkmail
 Version: 2.2.1
-Release: 4
+Release: 5
 Source0: %{name}-%{version}.tgz
 License: GPL
 Group: System/Servers
