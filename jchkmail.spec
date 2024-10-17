@@ -7,7 +7,7 @@ Release: 5
 Source0: %{name}-%{version}.tgz
 License: GPL
 Group: System/Servers
-Url: http://www.j-chkmail.org/
+Url: https://www.j-chkmail.org/
 BuildRequires: libxml2-devel
 BuildRequires: libmilter-devel 
 BuildRequires: sendmail
