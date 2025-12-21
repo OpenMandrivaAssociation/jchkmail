@@ -8,6 +8,11 @@ Source0: %{name}-%{version}.tgz
 License: GPL
 Group: System/Servers
 Url: https://www.j-chkmail.org/
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: libxml2-devel
 BuildRequires: libmilter-devel 
 BuildRequires: sendmail
